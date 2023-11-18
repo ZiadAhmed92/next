@@ -1,9 +1,11 @@
 // domainName.com/newproduce
-
-const NewProduce = () => {
+import NewProduce from "../../Components/NewProduce"
+const NewProduce1 = () => {
   return (
-    <div>NewProduce</div>
+    <div>
+      <NewProduce/>
+    </div>
   )
 }
 
-export default NewProduce
+export default NewProduce1
